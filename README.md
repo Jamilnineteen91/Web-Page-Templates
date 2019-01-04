@@ -3,7 +3,7 @@ A series of webpage templates for business or personal use. Inside you will find
 
 ## Built With
 - HTML5
--CSS3
--JavaScript
+- CSS3
+- JavaScript
 
 ## Acknowledgments
