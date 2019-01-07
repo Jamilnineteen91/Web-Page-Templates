@@ -1,5 +1,5 @@
 # Web-Page-Templates
-A series of webpage templates for business or personal use. Inside you will find static and interactive web-pages.
+A series of web-page templates for business or personal use. Inside you will find static and interactive web-pages.
 
 ## Built With
 - HTML5
@@ -7,3 +7,4 @@ A series of webpage templates for business or personal use. Inside you will find
 - JavaScript
 
 ## Acknowledgments
+- Restaurant web-page [image](https://www.sbs.com.au/food/recipes/grilled-miso-eggplant-and-haloumi-burgers).
