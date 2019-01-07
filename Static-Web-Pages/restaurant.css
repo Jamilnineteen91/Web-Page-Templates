@@ -6,27 +6,44 @@ body{
 header{
 	border-style: solid;
 	padding: 10px 0 0 10px;
+	background-color: black;
 }
+
 
 nav{
 	margin: 0 20px 0 20px;
 }
 
 header h1{
-	border-style: solid;
+	align-items: center;
+	color: white;
 }
 
 header li{
 	font-family: 'Cedarville Cursive', cursive;
 	display: inline;
-	border-style: solid;
 	margin: 30px 30px;
+	align-items: center;
+	font-size: 25px;
+	color: white;
 }
 
 /*Jumbotron settings */
 
 .jumbotron{
 	background-image: url("images/burgers.jpg");
-	width: 1200px;
+	background-size: cover;
 	height: 800px;
+}
+
+.box{
+	border-style: solid;
+	width: 300px;
+	height: 400px;
+	font-family: 'Cedarville Cursive', cursive;
+	margin-top: 100px;
+}
+
+.box p{
+	padding: 0 10px 0 10px;
 }
