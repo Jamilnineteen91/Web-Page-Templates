@@ -4,7 +4,6 @@ body{
 }
 /* Header Settings */
 header{
-	border-style: solid;
 	padding: 10px 0 0 10px;
 	background-color: black;
 }
@@ -33,7 +32,7 @@ header li{
 .jumbotron{
 	background-image: url("images/burgers.jpg");
 	background-size: cover;
-	height: 800px;
+	height: 900px;
 }
 
 .box{
@@ -46,4 +45,19 @@ header li{
 
 .box p{
 	padding: 0 10px 0 10px;
+}
+
+/* Footer settings */
+
+footer {
+	background-color: black;
+}
+
+footer .row {
+	align-items: center;
+}
+
+footer img {
+	height: 50px;
+	width: 50px;
 }
