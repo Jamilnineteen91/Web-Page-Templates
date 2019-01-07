@@ -4,5 +4,22 @@ body{
 }
 
 header{
-	padding: 20px;
+	border-style: solid;
+	padding: 10px 0 0 10px;
 }
+
+nav{
+	margin: 0 20px 0 20px;
+}
+
+header h1{
+	border-style: solid;
+}
+
+header li{
+	font-family: 'Cedarville Cursive', cursive;
+	display: inline;
+	border-style: solid;
+	margin: 30px 30px;
+}
+
