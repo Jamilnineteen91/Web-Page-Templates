@@ -8,3 +8,6 @@ A series of web-page templates for business or personal use. Inside you will fin
 
 ## Acknowledgments
 - Restaurant web-page [image](https://www.sbs.com.au/food/recipes/grilled-miso-eggplant-and-haloumi-burgers).
+
+## Tasks
+- [ ] Mobile phone adjustments.
