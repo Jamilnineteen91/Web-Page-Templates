@@ -1,0 +1,23 @@
+/* Body Settings */
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+/* Jumbotron Settings */
+
+.jumbotron {
+	width: 100%;
+	height: 400px;
+}
+
+.jumbotron {
+	background-image: url("img/mountain.jpg");
+	background-size: cover;
+}
+
+
+/* Section 1 */
+img {
+	width: 480px;
+	height: 270px;
+}
