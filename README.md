@@ -12,5 +12,5 @@ A series of web-page templates for business or personal use. Inside you will fin
 ## Bugs
 - [ ] Bootstrap web-page mobile phone adjustments. Media query not working.
 
-- [ ] Video landing page doesn't adjust properly, height of video doesn't match height of browser.
+- [x] Video landing page doesn't adjust properly, height of video doesn't match height of browser.
 
