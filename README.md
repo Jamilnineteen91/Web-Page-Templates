@@ -9,5 +9,8 @@ A series of web-page templates for business or personal use. Inside you will fin
 ## Acknowledgments
 - Restaurant web-page [image](https://www.sbs.com.au/food/recipes/grilled-miso-eggplant-and-haloumi-burgers).
 
-## Tasks
-- [ ] Mobile phone adjustments. Media query not working.
+## Bugs
+- [ ] Bootstrap web-page mobile phone adjustments. Media query not working.
+
+- [ ] Video landing page doesn't adjust properly, height of video doesn't match height of browser.
+
