@@ -15,3 +15,8 @@ A series of web-page templates for business or personal use. Inside you will fin
 
 - [x] Video landing page doesn't adjust properly, height of video doesn't match height of browser.
 
+## What I learned
+
+- HTML; attributes for positioning
+- CSS; boostrap
+- Javascript
