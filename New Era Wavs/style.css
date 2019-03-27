@@ -1,0 +1,42 @@
+body,html{
+    /* height: 100%; */
+    margin:0;
+}
+
+/* .overlap-wrap{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+} */
+
+#landing-container{
+    height: 1920px;
+    width: 1080px;
+}
+
+.landing-page{
+    position: relative;
+    background-image: url("imgs/banner.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+    
+
+    /* z-index: 0; */
+}
+
+
+.content-section{
+    /* position: relative;  */
+    background-image: url("imgs/content-section.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    min-height: 100%;
+     
+    /* z-index: 1; */
+}

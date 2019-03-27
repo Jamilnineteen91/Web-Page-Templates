@@ -1,7 +1,31 @@
 
 #sliders{
-    background-size: cover;
+    
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.slide1{
+    background-image: url('img/img1.jpg')
+}
+
+.slide2{
+    background-image: url('img/img2.jpg')
+}
+
+.slide3{
+    background-image: url('img/img3.jpg')
+}
+
+.slide4{
+    background-image: url('img/img4.jpg')
+}
+
+.slide-content{
+    display: flex;/*sets how a flex item will grow or shrink to 
+                    fit the space available in its flex container*/ 
+    flex-direction: column;
+    justify-content: center;/*sets position of flex items*/
+    align-items: center;
+    text-align: center;
+}
