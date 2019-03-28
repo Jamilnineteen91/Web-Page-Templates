@@ -1,42 +1,28 @@
 body,html{
-    /* height: 100%; */
+    width: 100%;
     margin:0;
+    height: 100%;
 }
 
-/* .overlap-wrap{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "overlap";
-} */
 
-#landing-container{
-    height: 1920px;
-    width: 1080px;
-}
 
 .landing-page{
-    position: relative;
+    width:100%;
+    min-height:100%;
     background-image: url("imgs/banner.png");
-    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
-    min-height: 100%;
-    
-
-    /* z-index: 0; */
 }
 
 
 .content-section{
-    /* position: relative;  */
+    min-width: 100%;
+    min-height: 150%;
     background-image: url("imgs/content-section.png");
-    background-position:center;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-position: top; 
     background-attachment: scroll;
-    min-height: 100%;
-     
-    /* z-index: 1; */
 }
