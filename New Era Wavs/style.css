@@ -21,7 +21,7 @@
 .content-section{
     margin-top:-125px;
     min-height: 150%;
-    min-width: 100%;
+    max-width: 100%;
     background-image: url("imgs/content-section.png");
     background-size: cover;
     background-attachment: scroll;
@@ -29,8 +29,43 @@
     background-repeat: no-repeat;
 }
 
-/* Desktop first */
+/**********Desktop first************/
+
+/* Ipad Pro */
+@media(max-width:1024px){
+
+    .landing-page{
+        background-size: contain;
+        background-position:top;
+    }
+
+    .content-section{
+        background-size:contain;
+        margin-top:-900px;
+    }
+
+}
+
+
+/* Ipad */
 @media(max-width:768px){
-    
+    .landing-page{
+        background-size: contain;
+        background-position: top;
+    }
+
+    .content-section{
+        background-size: contain;
+        margin-top:-650px;
+    }
+}
+
+/* iPhone 5/SE */
+@media(max-width:320px){
+    .content-section{
+        background-position:bottom;
+        background-attachment: fixed;
+        height: auto;
+    }
 
 }
