@@ -9,7 +9,7 @@
 
 .landing-page{
     min-height: auto;
-    min-width: 100%;
+    min-width: auto;
     background-image: url("imgs/banner.png");
     background-size: cover;
     background-position: center center;
@@ -20,8 +20,8 @@
 
 .content-section{
     margin-top:-10%;
-    min-height: 150%;
-    min-width: 100%;
+    min-height: auto;
+    min-width: auto;
     background-image: url("imgs/content-section.png");
     background-size: cover;
     
@@ -39,19 +39,18 @@
 /********** @Media queries ************/
 
 /* Ipad Pro */
-@media screen and (max-width:1024px){
+/* @media screen and (max-height:1366px){
 
     .landing-page{
-        min-width: 1024px;
-        background-size: cover;
-        /* background-position:top; 
+        background-size: contain;
+        background-position:top;
     } 
 
     .content-section{
         background-size:contain;
-        margin-top:-25%;
+        margin-top:-95%;
     }
-}  
+}   */
 
 
 /* Ipad */
