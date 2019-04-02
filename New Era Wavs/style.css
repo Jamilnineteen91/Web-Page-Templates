@@ -24,33 +24,48 @@
     min-width: auto;
     background-image: url("imgs/content-section.png");
     background-size: cover;
-    
     background-attachment: scroll;
     overflow: hidden;
     background-repeat: no-repeat;
 }
 
+.info{
+    margin-top:10%;
+    border: 5px solid white;
+    height: 200px;
+    width: 500px;
+}
+
 /* footer{
-    min-width: 10%;
     min-height: 200px;
     background-color: black;
 } */
 
 /********** @Media queries ************/
 
-/* Ipad Pro */
-/* @media screen and (max-height:1366px){
-
+@media only screen and (max-width:600px){
     .landing-page{
-        background-size: contain;
-        background-position:top;
-    } 
-
-    .content-section{
         background-size:contain;
-        margin-top:-95%;
+        background-position: top;
     }
-}   */
+    
+    .content-section{
+        background-size: contain;
+        margin-top:-80%;
+        /* background-position:top; */
+    }
+
+}
+
+@media only screen and (max-width:300px){
+    
+    .content-section{
+        background-attachment: fixed;
+    }
+} 
+
+
+
 
 
 /* Ipad */
