@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
 }
 
-.content-section{
+.wrapper-content{
     margin-top:-10%;
     min-height: auto;
     min-width: auto;
@@ -29,13 +29,38 @@
     background-repeat: no-repeat;
 }
 
-.info{
+.wrapper-info{
     margin-top:10%;
     border: 5px solid white;
-    height: 200px;
-    width: 500px;
+    height: auto;
+    width: auto;
+    text-align: center;
 }
 
+
+#about{
+    max-height: auto;
+    max-width: auto;
+    background-image: url("imgs/Buttons/about.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#terms{
+    max-height: auto;
+    max-width: auto;
+    background-image: url("imgs/Buttons/terms.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact{
+    max-height: auto;
+    max-width: auto;
+    background-image: url("imgs/Buttons/contact.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* footer{
     min-height: 200px;
     background-color: black;
