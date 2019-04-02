@@ -32,35 +32,18 @@
 .wrapper-info{
     margin-top:10%;
     border: 5px solid white;
-    height: auto;
+    height: 100px;
     width: auto;
     text-align: center;
+    margin-right: 20%;
+    margin-left:20%;
+}
+
+.btn{
+
 }
 
 
-#about{
-    max-height: auto;
-    max-width: auto;
-    background-image: url("imgs/Buttons/about.png");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#terms{
-    max-height: auto;
-    max-width: auto;
-    background-image: url("imgs/Buttons/terms.png");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#contact{
-    max-height: auto;
-    max-width: auto;
-    background-image: url("imgs/Buttons/contact.png");
-    background-size: cover;
-    background-attachment: fixed;
-}
 /* footer{
     min-height: 200px;
     background-color: black;
