@@ -7,7 +7,7 @@
 }
 
 
-.landing-page{
+.container-banner{
     min-height: auto;
     min-width: auto;
     background-image: url("imgs/banner.png");
@@ -18,32 +18,39 @@
     background-repeat: no-repeat;
 }
 
-.wrapper-content{
+.container-content{
     margin-top:-10%;
-    min-height: auto;
+    max-height: auto;
     min-width: auto;
     background-image: url("imgs/content-section.png");
     background-size: cover;
     background-attachment: scroll;
-    overflow: hidden;
     background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
 }
 
-.wrapper-info{
-    margin-top:10%;
+.container-info{
+    margin:10% 20% 5% 20%;
     border: 5px solid white;
     height: 100px;
     width: auto;
     text-align: center;
-    margin-right: 20%;
-    margin-left:20%;
 }
 
-.btn{
+.container-player{
+    border: 5px solid white;
+    background-image: url("imgs/player-plate-750.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: auto;
+    min-width: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-right:10%;
 
 }
-
-
 /* footer{
     min-height: 200px;
     background-color: black;
@@ -62,6 +69,7 @@
         margin-top:-80%;
         /* background-position:top; */
     }
+
 
 }
 
