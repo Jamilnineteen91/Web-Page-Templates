@@ -46,23 +46,20 @@
 .container-player{
     border: 5px solid white;
     background-image: url("imgs/player-plate-750.png");
-    background-size:cover;
+    background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: auto;
-    min-width: auto;
+    height: 800px /*739px*/;
+    width: 1085px/*1078px*/;
     text-align: center;
     margin-left: 10%;
     margin-right:10%;
 
 }
-/* footer{
-    min-height: 200px;
-    background-color: black;
-} */
+
 
 /********** @Media queries ************/
-
+/*
 @media only screen and (max-width:600px){
     .landing-page{
         background-size:contain;
@@ -84,7 +81,7 @@
         background-attachment: fixed;
     }
 } 
-
+*/
 
 
 
