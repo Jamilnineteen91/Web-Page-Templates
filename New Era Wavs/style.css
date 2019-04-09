@@ -6,8 +6,13 @@
     height: 100%;
 }
 
+.wrapper{
+    width:auto;
+    height:1200px;
+}
 
 .container-banner{
+    /* display:block; */
     min-height: auto;
     min-width: auto;
     background-image: url("imgs/banner.png");
@@ -19,7 +24,7 @@
 }
 
 .container-content{
-    margin-top:-10%;
+    margin-top:-35%;
     max-height: auto;
     min-width: auto;
     background-image: url("imgs/content-section.png");
@@ -35,7 +40,7 @@
     border: 5px solid white;
     height: 100px;
     width: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .container-player{
@@ -67,7 +72,7 @@
     .content-section{
         background-size: contain;
         margin-top:-80%;
-        /* background-position:top; */
+        
     }
 
 
