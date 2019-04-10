@@ -52,6 +52,11 @@
     outline:none;
 }
 
+.btn:hover{
+    opacity: 0.8;
+    transition: 700ms;
+}
+
 .btn-content{
     color:white;
 }
@@ -62,6 +67,7 @@
 
 #btn-content-terms{
     display:none;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 
 #btn-content-contact{
@@ -82,6 +88,7 @@
     margin-right:10%; */
 
 }
+
 
 
 /********** @Media queries ************/
