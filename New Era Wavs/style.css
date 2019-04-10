@@ -9,6 +9,7 @@
 .wrapper{
     width:auto;
     height:920px;
+    text-align: center;
 }
 
 .container-banner{
@@ -24,6 +25,7 @@
 }
 
 .container-content{
+    display: inline-block;
     margin-top:-25%;
     max-height: 1080px;
     min-width: auto;
@@ -50,8 +52,17 @@
     outline:none;
 }
 
+.btn-content{
+    color:white;
+}
+
+#btn-content-about{
+    display:block;
+}
+
 
 .container-player{
+    display: inline-block;
     border: 5px solid white;
     background-image: url("imgs/player-plate-750.png");
     background-size:contain;
@@ -60,8 +71,8 @@
     height: 800px /*739px*/;
     width: 1085px/*1078px*/;
     text-align: center;
-    margin-left: 10%;
-    margin-right:10%;
+    /* margin-left: 10%;
+    margin-right:10%; */
 
 }
 
