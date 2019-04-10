@@ -57,9 +57,16 @@
 }
 
 #btn-content-about{
-    display:block;
+    display:none;
 }
 
+#btn-content-terms{
+    display:none;
+}
+
+#btn-content-contact{
+    display:none;
+}
 
 .container-player{
     display: inline-block;
