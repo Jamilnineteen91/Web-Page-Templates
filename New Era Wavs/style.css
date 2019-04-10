@@ -8,7 +8,7 @@
 
 .wrapper{
     width:auto;
-    height:1200px;
+    height:920px;
 }
 
 .container-banner{
@@ -24,8 +24,8 @@
 }
 
 .container-content{
-    margin-top:-35%;
-    max-height: auto;
+    margin-top:-25%;
+    max-height: 1080px;
     min-width: auto;
     background-image: url("imgs/content-section.png");
     background-size: cover;
@@ -37,11 +37,18 @@
 
 .container-info{
     margin:10% 20% 5% 20%;
-    border: 5px solid white;
+    /* border: 5px solid white; */
     height: 100px;
-    width: auto;
-    /* text-align: center; */
+    width: 650px;
 }
+
+.btn{
+    cursor:pointer;
+    background-color:transparent;
+    border:none;
+    outline:none;
+}
+
 
 .container-player{
     border: 5px solid white;
