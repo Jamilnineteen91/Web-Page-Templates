@@ -57,24 +57,31 @@
 }
 
 .btn-content{
+    display: block;
     color:white;
-    transition: 500ms;
+    border: 5px solid white;
+    height: auto;
+    width: auto;
+    padding: 25px;
 }
 
 #btn-content-about{
-    display:none;
+    visibility: hidden;
+    transition: visibility 1s, opacity .5s linear;
 }
 
 #btn-content-terms{
-    display:none;
-    -webkit-transition: all 0.5s ease-in-out;
+    visibility: hidden;
+    transition: visibility 1s, opacity .5s linear;
 }
 
 #btn-content-contact{
-    display:none;
+    visibility: hidden;
+    transition: visibility 1s, opacity .5s linear;
 }
 
 .container-player{
+    margin-top: 50px;
     display: inline-block;
     border: 5px solid white;
     background-image: url("imgs/player-plate-750.png");

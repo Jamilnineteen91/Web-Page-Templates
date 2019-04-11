@@ -2,29 +2,39 @@ var about = document.getElementById('btn-content-about');
 var terms = document.getElementById('btn-content-terms');
 var contact = document.getElementById('btn-content-contact');
 
-document.querySelector('#btn-about').addEventListener('click',function (){
-    if (about.style.display==='none'){
-        about.style.display='block';
+document.querySelector('#btn-about').addEventListener('click',()=>{
+    if (about.style.visibility=='hidden'){
+        about.style.visibility='visible';
+        about.style.opacity='1';
     }else{
-        about.style.display='none';
+        about.style.visibility='hidden';
+        about.style.opacity='0';
     }
-})
+});
 
-document.querySelector('#btn-terms').addEventListener('click',function (){
-    if (terms.style.display==='none'){
-        terms.style.display='block';
-    }else{
-        terms.style.display='none';
-    }
-})
 
-document.querySelector('#btn-contact').addEventListener('click',function (){
-    if (contact.style.display==='none'){
-        contact.style.display='block';
+document.querySelector('#btn-terms').addEventListener('click',()=>{
+    if (terms.style.visibility=='hidden'){
+        terms.style.visibility='visible';
+        terms.style.opacity='1';
     }else{
-        contact.style.display='none';
+        terms.style.visibility='hidden';
+        terms.style.opacity='0';
     }
-})
+});
+
+document.querySelector('#btn-contact').addEventListener('click',()=>{
+    if (contact.style.visibility=='hidden'){
+        contact.style.visibility='visible';
+        contact.style.opacity='1';
+    }else{
+        contact.style.visibility='hidden';
+        contact.style.opacity='0';
+    }
+});
+
+
+// document.querySelector('#btn-about').addEventListener('click',toggleAbout());
 // function btn_about(){
     
 //     if (about.style.display==='none'){
@@ -33,3 +43,4 @@ document.querySelector('#btn-contact').addEventListener('click',function (){
 //         about.style.display='none';
 //     }
 // }
+
