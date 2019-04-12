@@ -10,9 +10,13 @@ document.querySelector('#btn-about').addEventListener('click',()=>{
     if (about.style.visibility=='hidden'){
         about.style.visibility='visible';
         about.style.opacity='1';
+        btn_terms.disabled=true;
+        btn_contact.disabled=true;
     }else{
         about.style.visibility='hidden';
         about.style.opacity='0';
+        btn_terms.disabled=false;
+        btn_contact.disabled=false;
     }
 });
 
@@ -21,9 +25,13 @@ document.querySelector('#btn-terms').addEventListener('click',()=>{
     if (terms.style.visibility=='hidden'){
         terms.style.visibility='visible';
         terms.style.opacity='1';
+        btn_about.disabled=true;
+        btn_contact.disabled=true;
     }else{
         terms.style.visibility='hidden';
         terms.style.opacity='0';
+        btn_about.disabled=false;
+        btn_contact.disabled=false;
     }
 });
 
@@ -31,9 +39,13 @@ document.querySelector('#btn-contact').addEventListener('click',()=>{
     if (contact.style.visibility=='hidden'){
         contact.style.visibility='visible';
         contact.style.opacity='1';
+        btn_about.disabled=true;
+        btn_terms.disabled=true;
     }else{
         contact.style.visibility='hidden';
         contact.style.opacity='0';
+        btn_about.disabled=false;
+        btn_terms.disabled=false;
     }
 });
 
