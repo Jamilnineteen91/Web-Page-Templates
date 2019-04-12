@@ -42,6 +42,7 @@
     /* border: 5px solid white; */
     height: 100px;
     width: 650px;
+    text-align: center;
 }
 
 .btn{
@@ -56,13 +57,22 @@
     transition: 700ms;
 }
 
+button:disabled{
+    cursor: not-allowed;
+}
+
 .btn-content{
-    display: block;
     color:white;
     border: 5px solid white;
     height: auto;
-    width: auto;
-    padding: 25px;
+    width: 700px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 117%;
+    right: 25%;
+    left: 25%;
+    
 }
 
 #btn-content-about{
@@ -81,7 +91,7 @@
 }
 
 .container-player{
-    margin-top: 50px;
+    margin-top: 30px;
     display: inline-block;
     border: 5px solid white;
     background-image: url("imgs/player-plate-750.png");
