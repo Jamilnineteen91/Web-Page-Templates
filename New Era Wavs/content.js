@@ -1,6 +1,10 @@
-var about = document.getElementById('btn-content-about');
-var terms = document.getElementById('btn-content-terms');
-var contact = document.getElementById('btn-content-contact');
+var about,terms,contact,btn_about,btn_terms,btn_contact;
+about = document.getElementById('btn-content-about');
+terms = document.getElementById('btn-content-terms');
+contact = document.getElementById('btn-content-contact');
+btn_about=document.getElementById("btn-about");
+btn_terms=document.getElementById("btn-terms");
+btn_contact=document.getElementById("btn-contact");
 
 document.querySelector('#btn-about').addEventListener('click',()=>{
     if (about.style.visibility=='hidden'){
