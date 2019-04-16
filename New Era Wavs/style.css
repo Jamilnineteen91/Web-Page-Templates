@@ -48,7 +48,7 @@ body{
 }
 
 .btn:hover{
-    opacity: 0.8;
+    opacity: 0.5;
     transition: 700ms;
 }
 
@@ -74,6 +74,7 @@ body{
 
 .container-main .container-icons .wrapper-icons a img{
     width: 150px;
+    border:none;
 }
 
 .container-main .container-icons .wrapper-icons a:hover{
@@ -91,18 +92,35 @@ body{
 
 /* -------------------Footer------------------- */
 
-footer{
-    height: 300px;
+footer .container-footer{
+    height: 100px;
     width:auto;
     background-color: black;
-
-    
+    margin: 0 auto;
 }
 
-footer p{
+footer .container-footer p{
+    margin:0;
     color: white;
-    margin: 0;
+    padding-top: 30px;
+    padding-left: 40px;
+    float: left;
 }
+
+footer .container-footer img{
+    width:50px;
+}
+
+/* footer #footer-icons li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+
+footer #footer-icons #copyright_text{
+    letter-spacing: 1.5em;
+} */
 
 /* ---------------Media Queries------------- */
 /* @media (max-width:1500px){
