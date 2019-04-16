@@ -1,55 +1,50 @@
-
-*{
-    margin:0;
+body{
+    margin: 0;
     padding: 0;
-    max-width: 100%;
-    height: 100%;
 }
 
-.wrapper{
-    width:auto;
-    height:920px;
-    text-align: center;
-}
-
+/* Banner Section */
 .container-banner{
-    min-height: auto;
-    min-width: auto;
+    width: 100%;
+    height: 1000px;
     background-image: url("imgs/banner.png");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    overflow: hidden;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: -30%;
 }
 
-.container-content{
-    display: inline-block;
-    margin-top:-25%;
-    max-height: 1080px;
-    min-width: auto;
-    background-image: url("imgs/content-section.png");
+
+
+/* Main Section */
+
+.container-main{
+    margin-top: -10%;
+    width: auto;
+    background-image: url('imgs/content-section.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    text-align: center;
 }
 
 .container-info{
-    display: inline-block;
-    margin:10% 20% 5% 20%;
-    /* border: 5px solid white; */
-    height: 100px;
-    width: 650px;
-    text-align: center;
+    padding: 10%;
+    min-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.container-info button img{
+    width: 300px;
 }
 
 .btn{
-    cursor:pointer;
-    background-color:transparent;
-    border:none;
-    outline:none;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: none;
 }
 
 .btn:hover{
@@ -57,104 +52,47 @@
     transition: 700ms;
 }
 
-button:disabled{
-    cursor: not-allowed;
+.container-main .player-plate{
+    margin-top:-5%;
+    min-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
 }
 
-.btn-content{
-    color:white;
-    border: 5px solid white;
-    height: auto;
-    width: 700px;
-    padding: 10px;
-    display: inline-block;
-    position: absolute;
-    top: 117%;
-    right: 25%;
-    left: 25%;
-    
+.container-main .container-icons{
+    margin-top:5%;
+    min-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 40px;
 }
 
-#btn-content-about{
-    visibility: hidden;
-    transition: visibility 1s, opacity .5s linear;
+.container-main .container-icons .wrapper-icons a img{
+    width: 150px;
 }
 
-#btn-content-terms{
-    visibility: hidden;
-    transition: visibility 1s, opacity .5s linear;
+.container-main .container-icons .wrapper-icons a:hover{
+    opacity: 0.5;
+    transition: 500ms;
 }
 
-#btn-content-contact{
-    visibility: hidden;
-    transition: visibility 1s, opacity .5s linear;
-}
-
-.container-player{
-    margin-top: 30px;
-    display: inline-block;
-    border: 5px solid white;
-    background-image: url("imgs/player-plate-750.png");
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 800px /*739px*/;
-    width: 1085px/*1078px*/;
-    text-align: center;
-    /* margin-left: 10%;
-    margin-right:10%; */
-
+.container-main .ledge{
+    margin-top:0;
+    min-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-
-/********** @Media queries ************/
-/*
-@media only screen and (max-width:600px){
-    .landing-page{
+@media (max-width:1500px){
+    .container-main{
         background-size:contain;
-        background-position: top;
     }
-    
-    .content-section{
+    .container-banner{
         background-size: contain;
-        margin-top:-80%;
-        
     }
-
-
 }
-
-@media only screen and (max-width:300px){
-    
-    .content-section{
-        background-attachment: fixed;
-    }
-} 
-*/
-
-
-
-
-/* Ipad */
-/* @media screen and (max-width:768px){
-    .landing-page{
-        background-size: contain;
-        background-position: top;
-    }
-
-    .content-section{
-        background-size: contain;
-        margin-top:-20%;
-    }
-}  */
-
-/* iPhone 5/SE */
-/* @media screen and (max-width:320px){
-    .content-section{
-        background-size: contain;
-        background-attachment: fixed;
-        
-    }
-
-}  */
