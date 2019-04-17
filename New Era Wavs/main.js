@@ -1,13 +1,15 @@
 window.onload=function(){
     // Modal variables
-    var aboutModal,termsModal, contactModal, aboutBtn, termsBtn, contactBtn, closeBtn;
+    var aboutModal,termsModal, contactModal, aboutBtn, termsBtn, contactBtn, closeAboutBtn,closeTermsBtn,closeContactBtn;
     aboutModal = document.getElementById("aboutModal");
     termsModal = document.getElementById("termsModal");
     contactModal = document.getElementById("contactModal");
     aboutBtn= document.getElementById("aboutBtn");
     termsBtn= document.getElementById("termsBtn");
     contactBtn= document.getElementById("contactBtn");
-    closeBtn = document.querySelector(".closeBtn");
+    closeAboutBtn = document.querySelector("#closeAboutBtn");
+    closeTermsBtn = document.querySelector("#closeTermsBtn");
+    closeContactBtn = document.querySelector("#closeContactBtn");
 
     //  Modal functions
     function openAboutModal(){
@@ -35,13 +37,13 @@ window.onload=function(){
     };
 
     aboutBtn.addEventListener('click', openAboutModal);
-    closeBtn.addEventListener('click', closeAboutModal);
+    closeAboutBtn.addEventListener('click', closeAboutModal);
 
     termsBtn.addEventListener('click', openTermsModal);
-    closeBtn.addEventListener('click', closeTermsModal);
+    closeTermsBtn.addEventListener('click', closeTermsModal);
 
     contactBtn.addEventListener('click', openContactModal);
-    closeBtn.addEventListener('click', closeContactModal);
+    closeContactBtn.addEventListener('click', closeContactModal);
     
 
     // Outside click listner
@@ -53,7 +55,7 @@ window.onload=function(){
         }
         else if(e.target==termsModal){
             termsModal.style.display='none';
-        }else{
+        }else if(e.target==contactModal){
             contactModal.style.display='none';
         }
     }
