@@ -138,13 +138,16 @@ footer #footer-icons #copyright_text{
 
 .modal-content{
     background-color: #f4f4f4;
-    margin: 30% auto;
+    position:fixed;
+    margin: 20% auto;
+    margin-left: 15%;
     padding: 20px;
     width: 70%;
     border-radius: 25px;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
     animation: modal_open;
     animation-duration: 2s;
+    text-align: center;
 }
 
 .closeBtn{
