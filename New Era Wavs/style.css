@@ -143,6 +143,8 @@ footer #footer-icons #copyright_text{
     width: 70%;
     border-radius: 25px;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    animation: modal_open;
+    animation-duration: 2s;
 }
 
 .closeBtn{
@@ -157,6 +159,12 @@ footer #footer-icons #copyright_text{
     cursor: pointer;
     transition: 500ms;
 }
+
+@keyframes modal_open{
+    from{opacity:0}
+    to {opacity: 1;}
+}
+
 
 /* ---------------Media Queries------------- */
 /* @media (max-width:1500px){
