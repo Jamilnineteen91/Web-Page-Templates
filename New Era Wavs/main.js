@@ -36,6 +36,7 @@ window.onload=function(){
         contactModal.style.display='none';
     };
 
+    // Event Listeners
     aboutBtn.addEventListener('click', openAboutModal);
     closeAboutBtn.addEventListener('click', closeAboutModal);
 
