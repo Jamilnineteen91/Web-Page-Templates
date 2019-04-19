@@ -170,11 +170,47 @@ footer #footer-icons #copyright_text{
 
 
 /* ---------------Media Queries------------- */
-/* @media (max-width:1500px){
-    .container-main{
-        background-size:contain;
-    }
+
+/* Tablets */
+@media(max-width:1024px){
+    
     .container-banner{
         background-size: contain;
     }
-} */
+
+    .container-main{
+        margin-top: -500px;
+    }
+}
+
+/* Cell-phones */
+@media(max-width:500px){
+    .container-banner{
+    
+    }
+    .container-main{
+        margin-top:-800px;
+        background-image: none;
+    }
+
+    .container-info{
+        display:none;
+    }
+
+    .container-main .player-plate{
+        margin-top:0 ;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .container-main .container-icons{
+        display: none;
+    }
+
+    .container-main .ledge{
+        display: none;
+    }
+}
