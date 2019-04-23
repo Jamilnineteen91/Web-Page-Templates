@@ -53,8 +53,7 @@ window.onload=function(){
     function outsideClick(e){
         if(e.target==aboutModal){
             aboutModal.style.display='none';
-        }
-        else if(e.target==termsModal){
+        }else if(e.target==termsModal){
             termsModal.style.display='none';
         }else if(e.target==contactModal){
             contactModal.style.display='none';
@@ -62,3 +61,5 @@ window.onload=function(){
     }
 
 }
+
+// 

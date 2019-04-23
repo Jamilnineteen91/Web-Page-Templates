@@ -3,6 +3,23 @@ body{
     padding: 0;
 }
 
+/* --------------Mobile Nav ------------*/
+.navbar{
+    background-color: #ffffff;
+    height: auto;
+    margin:0;
+    padding:5px;
+}
+
+.navbar img{
+    float: right;
+    padding-top: 5px;
+}
+
+.navbar svg{
+    padding-top:5px;
+}
+
 /* ------------Banner Section--------- */
 .container-banner{
     width: 100%;
