@@ -62,4 +62,15 @@ window.onload=function(){
 
 }
 
-// 
+// Mobile navbar
+var sideMenu=document.querySelector(".sideMenu");
+
+
+function openSideMenu(){
+    sideMenu.style.display='block';
+}
+
+function closeSideMenu(){
+    sideMenu.style.display='none';
+}
+

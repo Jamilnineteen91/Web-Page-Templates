@@ -21,7 +21,7 @@ body{
     padding-top:5px;
 }
 
-.side-menu{
+.sideMenu{
     display: none;
     font-family: 'Kaushan Script',cursive;
     background-color: #000;
@@ -35,19 +35,19 @@ body{
     overflow: auto;
 }
 
-.side-menu ul{
+.sideMenu ul{
     font-size: 1.4em;
     padding: 20px 0px 0px 10px;
     float: left;
     list-style: none;
 }
 
-.side-menu a{
+.sideMenu a{
     text-decoration: none;
     color: #ffffff;
 }
 
-.side-menu .closeBtn{
+.sideMenu .closeBtn{
     position: absolute;
     top:0;
     right: 22px;
@@ -236,7 +236,13 @@ footer #footer-icons #copyright_text{
 
 /* Cell-phones */
 @media(max-width:500px){
+
+    .navbar{
+        display: block;
+    }
+
     .container-banner{
+        display: block;
         align-content: center;
     }
     
