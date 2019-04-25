@@ -67,10 +67,14 @@ var sideMenu=document.querySelector(".sideMenu");
 
 
 function openSideMenu(){
-    sideMenu.style.display='block';
+    // sideMenu.style.display='block';
+    sideMenu.style.visibility="visible";
+    sideMenu.style.width="40%";
 }
 
 function closeSideMenu(){
-    sideMenu.style.display='none';
+    // sideMenu.style.display='none';
+    sideMenu.style.visibility="hidden";
+    sideMenu.style.width="0%";
 }
 
