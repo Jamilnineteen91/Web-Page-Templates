@@ -73,8 +73,6 @@ function openSideMenu(){
 }
 
 function closeSideMenu(){
-    // sideMenu.style.display='none';
-    sideMenu.style.visibility="hidden";
     sideMenu.style.width="0%";
 }
 
