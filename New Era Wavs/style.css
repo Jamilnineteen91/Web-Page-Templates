@@ -4,8 +4,9 @@ body{
     background-color: #000;
 }
 
-/* --------------Mobile Nav ------------*/
+/* -------------- Mobile ------------*/
 
+/* Nav */
 .navbar{
     display: none;
     background-color: #ffffff;
@@ -25,6 +26,7 @@ body{
     padding-top:5px;
 }
 
+/* Side Menu */
 .sideMenu{
     /* display: none; */
     visibility: hidden;
@@ -71,6 +73,10 @@ body{
     position: absolute;
     top:0;
     right: 22px;
+}
+/* Info Section */
+.mobile-content{
+    display:none;
 }
 
 
@@ -364,9 +370,27 @@ footer #footer-icons #copyright_text{
     .container-main .ledge{
         display: none;
     }
+    
+    .mobile-content{
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     footer{
         margin-top:0;
         position:fixed;
+    }
+}
+
+@media(max-width:320px){
+    .sideMenu-logo{
+        width: 120px;
+        height: 70px;
+    }
+    .sideMenu li{
+        margin-left:0;
     }
 }
