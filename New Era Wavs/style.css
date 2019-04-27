@@ -185,16 +185,10 @@ footer .container-footer img{
     width:50px;
 }
 
-/* footer #footer-icons li {
-    list-style: none;
-    display: inline-block;
-    float: right;
-    padding: 10px;
+footer .container-footer .intel_prop{
+    float: left;
 }
 
-footer #footer-icons #copyright_text{
-    letter-spacing: 1.5em;
-} */
 
 /* ---------------Modal Window------------- */
 
