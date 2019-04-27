@@ -182,10 +182,13 @@ footer .container-footer p{
     float: left;
 }
 
+footer .container-footer .footer-icons{
+    visibility: hidden;
+}
+
 footer .container-footer img{
     width:50px;
     padding: 20px 10px 0px 10px;
-
 }
 
 
@@ -238,16 +241,6 @@ footer .container-footer img{
 
 
 /* ---------------Media Queries------------- */
-
-/* Large Desktop Monitors */
-/* @media(min-width:1024px){
-    .container-banner{
-        background-size: contain;
-    }
-    .container-main{
-        margin-top:-50%;
-    }
-} */
 
 /* Tablets */
 @media(max-width:1024px){
@@ -320,12 +313,10 @@ footer .container-footer img{
     .container-main .wrapper-icons{
         display: none;
     }
-    footer{
-        /* font-size: 1em; */
+    .container-footer .footer-icons img{
+        visibility: visible;
     }
 }
-
-
 
 
 /* Cell-phones */
@@ -339,6 +330,7 @@ footer .container-footer img{
     .container-banner{
         align-content: center;
         margin-bottom:-10px; 
+        background-attachment: scroll;
     }
     
     .container-main{
