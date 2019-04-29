@@ -62,7 +62,12 @@
         <div class="player-plate">
             <!-- <div class="container-player"> -->
                 <!-- <img src="imgs/player-plate-750.png" alt="player-plate-750"> -->
-                <iframe id="mfs_html5" src="https://airbit.com/widgets/html5/?uid=132938&config=672731" width="750" height="510" frameborder="0" scrolling="no"></iframe>
+                <div class="loader">
+                    <img src="imgs/favicon.png" class="pulse" width="200px" height="100px">
+                    <p>Loading...</p>
+                </div>
+                <iframe id="mfs_html5" src="https://airbit.com/widgets/html5/?uid=132938&config=672731" width="750" height="510" frameborder="0" scrolling="no"
+                onload="document.querySelector('.loader').style.display='none';"></iframe>
             <!-- </div> -->
         </div>
 
