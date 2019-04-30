@@ -163,12 +163,18 @@ body{
 
 /* Player Plate */
 .container-main .player-plate{
-    margin-top:-5%;
+    margin:-5% 10% 0 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0;
+    background-image: url("imgs/Player-box-final\ \(2\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
 }
+
+
 
 /* Social Media Icons */
 .container-main .container-icons{
